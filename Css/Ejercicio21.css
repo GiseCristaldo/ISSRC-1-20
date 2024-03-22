@@ -1,0 +1,49 @@
+/*Crea un documento HTML vacío y enlaza un archivo CSS externo para cambiar el color de
+fondo de la página.*/
+
+body {
+  font-family: Georgia, "",
+        Times, serif;
+  color: purple;
+  background-color: #d8da3d }
+
+/*Ejercicio 21 Estiliza un párrafo de texto para cambiar el color del texto y el tamaño de fuente.*/
+p {
+  font-family: Helvetica, Geneva, Arial,
+        SunSans-Regular, sans-serif;
+    color: rgb(223, 25, 58);
+    
+    }
+/* Agrega un borde alrededor de una imagen en tu página.*/
+.imagen1 {
+    border: 5px solid #f5ff63;
+    height: 150px;
+    width: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+/*Estiliza un enlace (<a>) para cambiar el color y el efecto al pasar el mouse (hover).*/
+
+.link { color: #ff00dd; } /* CSS link color (pink) */
+.link:hover { color: #00FF00; } /* CSS link hover (green) */      
+.eje:hover { color: #00FF00; } /* CSS link hover (green) */    
+
+/*Centra un elemento en el medio de la página tanto horizontal como verticalmente.*/
+.center p {
+    text-align: center;
+    height: 100px;
+}
+.center h1 {
+    text-align: center;
+    line-height: 100px;
+}
+/*Crea un botón personalizado con efectos de hover.*/
+.boton {
+    min-width: 100px;
+    box-sizing: border-box;
+    display: flex;
+
+}
